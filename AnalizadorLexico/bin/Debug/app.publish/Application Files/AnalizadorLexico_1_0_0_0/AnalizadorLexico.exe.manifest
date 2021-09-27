@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="AnalizadorLexico.exe" version="1.0.0.0" publicKeyToken="6475740a1d109871" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="AnalizadorLexico" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="AnalizadorLexico.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AnalizadorLexico.exe" size="12248">
+      <assemblyIdentity name="AnalizadorLexico" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>EiTYmiUndYu2SbYtaL3yGNmWhFm0sLXMvI4RDH2R2TM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="AnalizadorLexico.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=LAPTOP-LDS5PCO5\USER" issuerKeyHash="944fdf0b4add557861622daa903dfd14a5f645c6" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>ZcSA3LSrUn3WiJlSc/qXDDAEGqZw0ofLP69n+Dh24LA=</DigestValue></Reference></SignedInfo><SignatureValue>CfolM/9U7a9/iXJ4l0WlK1uzN1Znf+znqoMr/+27RsuhmV7oPhcdXAQ88ZI+ps8omRH6KIyx3drUu4PPoLQkH5mpz2dr0MKYQinqh/TBqz53VBfbdrNnYDUuMcKvduAe4Rm/3SPNTzgHdLmJHUaqGAJxlq8GtFrV2Y4oASjuEho=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>2LrjgL7CI/O9EdcEOlPKHnB+3oxAD21GTh1AK+pFgwmMDnHfXHyaMGWNqY4Mq+OCcTwBLhdL5mraj7eHmtudxwLyJkQgvOSVymTnZmnw6vcM9VOUlznC2G24v7t9/hcwPnsbF99fJObmb2nBDQd5FBwRdD8BVhMTtoP3cQ4bq40=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="b0e07638f867af3fcb87d270a61a04300c97fa73529988d67d52abb4dc80c465" Description="" Url=""><as:assemblyIdentity name="AnalizadorLexico.exe" version="1.0.0.0" publicKeyToken="6475740a1d109871" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=LAPTOP-LDS5PCO5\USER</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>i6A/ebMRx1VEVf5d4K9qCtvbFjQq81JC1h0q6eBDdLs=</DigestValue></Reference></SignedInfo><SignatureValue>go7f1d3kmPeC22kjv3C24qvv840W8IvdfhPaevjfY2vZmC/Yi04WIi/Y7qx9or6RHaXydbbhhXVZRSC+8McCFP1QjPestCNumvOW+2DEy3/Jao5YqYnT1GjTWP1gtyo+byf4j0kTgbdhbJ3Wtqa+n4D6uGuoCpTUIL1PD1mZABU=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>2LrjgL7CI/O9EdcEOlPKHnB+3oxAD21GTh1AK+pFgwmMDnHfXHyaMGWNqY4Mq+OCcTwBLhdL5mraj7eHmtudxwLyJkQgvOSVymTnZmnw6vcM9VOUlznC2G24v7t9/hcwPnsbF99fJObmb2nBDQd5FBwRdD8BVhMTtoP3cQ4bq40=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB6TCCAVKgAwIBAgIQQTgMhvyG0qFLDQKSkVwz8jANBgkqhkiG9w0BAQsFADAzMTEwLwYDVQQDHigATABBAFAAVABPAFAALQBMAEQAUwA1AFAAQwBPADUAXABVAFMARQBSMB4XDTIxMDkyNzAyNTc0OFoXDTIyMDkyNzA4NTc0OFowMzExMC8GA1UEAx4oAEwAQQBQAFQATwBQAC0ATABEAFMANQBQAEMATwA1AFwAVQBTAEUAUjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA2LrjgL7CI/O9EdcEOlPKHnB+3oxAD21GTh1AK+pFgwmMDnHfXHyaMGWNqY4Mq+OCcTwBLhdL5mraj7eHmtudxwLyJkQgvOSVymTnZmnw6vcM9VOUlznC2G24v7t9/hcwPnsbF99fJObmb2nBDQd5FBwRdD8BVhMTtoP3cQ4bq40CAwEAATANBgkqhkiG9w0BAQsFAAOBgQAnKHczfyUb4JNZ884kzeeGP3Txt9vJ9nNHHQf0Hv/nbxs/gtibURP4O4u3NyPADdZyE+YkICSjbD67TD4wuumlmFf1Zb9/VtPfbAwd2IegPtBWKPT58tAdlCd9iIS9R4tDbrM81aVGU/BlZzz+oIPCNmsMplO67lzBH1v/4de/OA==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

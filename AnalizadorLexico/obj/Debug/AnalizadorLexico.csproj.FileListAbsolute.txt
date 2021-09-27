@@ -8,3 +8,17 @@ C:\Users\USER\source\repos\AnalizadorLexico\AnalizadorLexico\obj\Debug\Analizado
 C:\Users\USER\source\repos\AnalizadorLexico\AnalizadorLexico\obj\Debug\AnalizadorLexico.csproj.CoreCompileInputs.cache
 C:\Users\USER\source\repos\AnalizadorLexico\AnalizadorLexico\obj\Debug\AnalizadorLexico.exe
 C:\Users\USER\source\repos\AnalizadorLexico\AnalizadorLexico\obj\Debug\AnalizadorLexico.pdb
+C:\Users\USER\Documents\GitHub\AnalizadorLexico\AnalizadorLexico\bin\Debug\AnalizadorLexico.exe.config
+C:\Users\USER\Documents\GitHub\AnalizadorLexico\AnalizadorLexico\bin\Debug\AnalizadorLexico.exe.manifest
+C:\Users\USER\Documents\GitHub\AnalizadorLexico\AnalizadorLexico\bin\Debug\AnalizadorLexico.application
+C:\Users\USER\Documents\GitHub\AnalizadorLexico\AnalizadorLexico\bin\Debug\AnalizadorLexico.exe
+C:\Users\USER\Documents\GitHub\AnalizadorLexico\AnalizadorLexico\bin\Debug\AnalizadorLexico.pdb
+C:\Users\USER\Documents\GitHub\AnalizadorLexico\AnalizadorLexico\obj\Debug\AnalizadorLexico.csprojAssemblyReference.cache
+C:\Users\USER\Documents\GitHub\AnalizadorLexico\AnalizadorLexico\obj\Debug\AnalizadorLexico.Form1.resources
+C:\Users\USER\Documents\GitHub\AnalizadorLexico\AnalizadorLexico\obj\Debug\AnalizadorLexico.Properties.Resources.resources
+C:\Users\USER\Documents\GitHub\AnalizadorLexico\AnalizadorLexico\obj\Debug\AnalizadorLexico.csproj.GenerateResource.cache
+C:\Users\USER\Documents\GitHub\AnalizadorLexico\AnalizadorLexico\obj\Debug\AnalizadorLexico.csproj.CoreCompileInputs.cache
+C:\Users\USER\Documents\GitHub\AnalizadorLexico\AnalizadorLexico\obj\Debug\AnalizadorLexico.exe.manifest
+C:\Users\USER\Documents\GitHub\AnalizadorLexico\AnalizadorLexico\obj\Debug\AnalizadorLexico.application
+C:\Users\USER\Documents\GitHub\AnalizadorLexico\AnalizadorLexico\obj\Debug\AnalizadorLexico.exe
+C:\Users\USER\Documents\GitHub\AnalizadorLexico\AnalizadorLexico\obj\Debug\AnalizadorLexico.pdb
